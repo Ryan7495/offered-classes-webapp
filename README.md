@@ -8,7 +8,7 @@ For my web crawler I choose to scrape all the information in one pass and to not
 
 ## Database Design
 
-For my database I created a table with appropriate names given the data in the CSV file through the use of SQL queries. I then uploaded my CSV file into the table. Ideally id just write the data into the database using SQL queries in my web crawler, but I was unable to figure out how to open an SSH connection for my DB connection to run over. I might be able to avoid the SSH connection by skipping a hop just openning a DB connection while running the web crawler on Timberlea.
+For my database I created a table with appropriate attributes given the data in the CSV file through the use of SQL queries. I used SQL queries to insert the scraped data into the database.
 
 
 ## Web Site
